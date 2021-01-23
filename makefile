@@ -1,6 +1,6 @@
 main: main.o
 	g++ -o main.x main.o
-	./main.x testfile
+	./main.x AA1100AAF
 	rm main.x main.o
 main.o: main.cpp
 	g++ -c main.cpp
